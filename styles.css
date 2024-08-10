@@ -1,0 +1,101 @@
+
+
+*, html, body {
+    margin:0;
+    padding:0;  
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  article {
+    padding: 50px;
+  }
+
+
+  .fieldform {
+    border: 3px rgb(51, 255, 0) solid;
+    width: 400px;
+  }
+
+  .inputContainer {
+    border: 3px red solid;
+    height: 200px;
+    max-width: 180px;
+  }
+  
+  .labelContainer {
+    border: 3px rgb(43, 39, 255) solid;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+
+    
+  }
+
+.fieldForm {
+    display: flex;
+
+}
+
+input, label {
+    min-height: 20px;
+    margin: 5px;
+}
+
+body {
+    margin: 50px;
+}
+
+button {
+    padding: 8px;
+    background-color:rgb(145, 145, 145);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    &:hover {
+        background-color: rgb(209, 209, 209);
+        color: black;
+    }
+}
+
+
+.cards {
+    max-width: 250px;
+    min-width: 200px;
+    background-color:rgb(221, 221, 221);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    display:flex;
+}
+
+p {
+    word-wrap: break-word;
+    max-width: 200px;
+    min-width: 200px;
+    border: 3px red solid;
+    padding: 10px;
+}
